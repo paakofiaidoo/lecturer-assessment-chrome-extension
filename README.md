@@ -1,5 +1,6 @@
 # Installation
-
+- clone repo  
+`git clone https://github.com/paakofiaidoo/lecturer-asscement-chrome-extention.git`
 - Navigate to chrome://extensions/
 - Enable Developer mode by ticking the checkbox
 - click the "Load unpacked extension..." button.
