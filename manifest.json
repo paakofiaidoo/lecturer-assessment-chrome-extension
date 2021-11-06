@@ -1,0 +1,21 @@
+{
+	"name": "Lecturer assessment helper",
+	"description": "to help with Lecturer assessment",
+	"version": "1.0",
+	"manifest_version": 3,
+
+	"permissions": ["storage", "activeTab", "scripting", "https://*/*", "http://*/*", "tabs"],
+	"icons": {
+		"16": "/images/vendetta-157703_640.png",
+		"32": "/images/vendetta-157703_640.png",
+		"48": "/images/vendetta-157703_640.png",
+		"128": "/images/vendetta-157703_640.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://localhost:3000/", "https://apps.knust.edu.gh/students/LecturerAssessment/*"],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	]
+}
