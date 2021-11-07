@@ -1,4 +1,4 @@
-# this a KNUST lecturer assessement hekper
+# this a KNUST lecturer assessement helper
 
 ## Installation
 - clone repo  
